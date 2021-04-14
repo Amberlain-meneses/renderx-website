@@ -1,0 +1,66 @@
+*{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.preload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #263238;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+/*dimencion del logo*/
+.preload img{
+    position: absolute;
+    max-width: 100%;
+    height: 70%;
+}
+
+/*contenedor de barras de carga*/
+.preload .content-barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30%;
+    margin-left: 1%;
+}
+
+/*tamaño y animacióin de barras de carga*/
+.preload .barra{
+    background: #fff;
+    width: 16px;
+    height: 32px;
+    margin-left: 10px;
+    animation: content-barra 1.2s infinite;
+}
+
+/*animacion de barras de carha*/
+@keyframes content-barra{
+    50%{
+        height: 60px;
+    }
+}
+
+.content-barra .barra:nth-child(1){
+    background:#F2618D;
+    animation-delay: -0.40s;
+}
+.content-barra .barra:nth-child(2){
+    background:#F4406F;
+    animation-delay: -0.20s;
+}
+.content-barra .barra:nth-child(3){
+    background:#F7325F;
+    animation-delay: 0s;
+}
+
+@keyframes fadeout {
+    from{opacity: 1;}
+    to {opacity: 0;}
+}
