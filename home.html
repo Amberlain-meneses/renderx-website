@@ -4,12 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--Style CSS-->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1>Hi! Iám Home page</h1>
+    <!--Navbar-->
+   <nav class="navbar" id="navbar">
+       <div class="nav-links">
+            <a href="">Inicio</a>
+            <a href="">Nosotros</a>
+            <a class="btn-contact" href="">Contacto</a>
+       </div>
+   </nav>
 
+   <!--Hero imagen-->
+   <div class="hero">
+        <img src="image/hero.jpg" alt="">
+       <div class="hero-text">
+        <h1>RenderX</h1>
+        <p>Desarrollo de aplicaciones web, aplicaciones móviles, modelado arquitectonico realista, modelado 2d y 3D,
+            marketing digital.
+        </p>
+        <button class="btn-quotation">solicita una cotización</button>
+       </div>
+   </div>
+   
+   <!--Work with us-->
+   <section class="work-withus">
+    <div class="title-workUs">
+        <h1>¿Por qué confiar en nosotros?</h1>
+    </div>
+    
+    <div class="container-cards">
+     <div class="card">
+         <div class="card-child">
+            <i class="fab fa-cc-mastercard"></i>
+             <h2>Nos adaptamos a tu presupuesto</h2>
+             <p> Buscamos ser accesibles con nuestros costos,
+                 por ello tienes la posibilidad de incluir los servicios que más se adapte a tu bolsillo.</p>
+         </div>
+     </div>
+     <div class="card">
+        <div class="card-child">
+            <i class="fas fa-laptop"></i>
+            <div title="container-title-service">
+                <h2>Páginas web</h2>
+            </div>
+            <p>Nuestros servicios se adaptan de acuerdo a las necesidades de nuestros clientes. Podemos impulsar tu negocio a siguiente nivel.</p>
+         </div>
+     </div>
+     <div class="card">
+        <div class="card-child">
+            <i class="fas fa-laptop-code"></i>
+             <h2>Desarrollo de Softare</h2>
+             <p>Contamos con un equipo especializado en el desarrollo de software dispuesto a implementar funciones especificas en su apliación web o móvil.</p>
+         </div>
+     </div>
+    </div>
+   </section>
 
-    <script src="js/loader.js"></script>
+   <!--Services-->
+     <!--Work with us-->
+     <section class="our-services">
+        <div class="title-services">
+            <h1>Nuestros Servicios</h1>
+        </div>
+        
+        <div class="cards-services">
+         <div class="card-service">
+             <div class="card-child-service">
+                <i class="fas fa-laptop"></i>
+                 <h2>Aplicaiones Web</h2>
+                 <p>Desarrollamos aplicaciones web a la medida, optimizando tus tareas, reduciendo costo y tiempo</p>
+             </div>
+         </div>
+         <div class="card-service">
+            <div class="card-child-service">
+                <i class="fas fa-mobile"></i>
+                 <h2>Aplicaciones Móviles</h2>
+                <p>Desarrollamos aplaicaciones móviles ligadas a tu apliación web, hemos trabajado con proyectos de sistemas de control interno.</p>
+             </div>
+         </div>
+         <div class="card-service">
+            <div class="card-child-service">
+                <i class="fas fa-pen-nib"></i>
+                 <h2>Diseño Gráfico</h2>
+                <p>Te ayudamos a crear una identidad y marca personal, para que tu negocio tenga una diferencia con la competencia.</p>
+             </div>
+         </div>
+         <div class="card-service">
+            <div class="card-child-service">
+                <i class="fas fa-layer-group"></i>
+                 <h2>Modelado 2D y 3D</h2>
+                <p>Mejoramos la experiencia de usuario en tus proyectos de arquitectura llevandolo al realismo</p>
+             </div>
+         </div>
+        </div>
+       </section>
+   
+<script src="js/menu.js"></script>
 </body>
 </html>
